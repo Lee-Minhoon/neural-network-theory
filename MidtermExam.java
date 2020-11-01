@@ -95,7 +95,7 @@ class BackpropagationExample {
             feedForward();
 
             // 라벨링된 정답과 비교한 후 역으로 에러를 계산하고 가중치를 업데이트함
-            // wih, whh, who 업데이트됨(erro, errsh, errh 사용해서 가중치르 업데이트)
+            // wih, whh, who 업데이트됨(erro, errsh, errh 사용해서 가중치를 업데이트)
             backPropagate();
 
         } // epoch
